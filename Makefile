@@ -27,5 +27,5 @@ headline: headline.o webview.o
 	cc $^ $(LDFLAGS) -o $@
 
 clean:
-	rm -f *.o headline
+	rm -f *.o headline bundle.html *.html.h
 
